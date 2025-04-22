@@ -291,7 +291,7 @@ if __name__ == '__main__':
         # 3. Start ngrok tunnel
         print("\n=== Starting Ngrok and Flask Server ===")
         # Use the stable domain instead of generating a random URL
-        ngrok_tunnel = ngrok.connect(5000, domain="synnas.ngrok.dev")
+        ngrok_tunnel = ngrok.connect(5000, domain="example.ngrok.freeapp")
         public_url = ngrok_tunnel.public_url
         print(f"\n * Ngrok tunnel established at: {public_url}")
         print(f" * Callback URL for MMG: {public_url}/payment/callback")
