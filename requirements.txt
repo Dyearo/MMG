@@ -1,0 +1,4 @@
+Flask
+pyngrok
+cryptography
+configparser
